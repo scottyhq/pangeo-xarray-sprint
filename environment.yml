@@ -1,0 +1,7 @@
+name: gdal3_tiledb
+dependencies:
+  - gdal
+  - python
+  - xarray
+  - pip:
+    - git+git@github.com:mapbox/rasterio.git
