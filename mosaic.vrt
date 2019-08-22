@@ -1,0 +1,35 @@
+<VRTDataset rasterXSize="13121" rasterYSize="13221">
+  <SRS>PROJCS["WGS 84 / UTM zone 10N",GEOGCS["WGS 84",DATUM["WGS_1984",SPHEROID["WGS 84",6378137,298.257223563,AUTHORITY["EPSG","7030"]],AUTHORITY["EPSG","6326"]],PRIMEM["Greenwich",0,AUTHORITY["EPSG","8901"]],UNIT["degree",0.0174532925199433,AUTHORITY["EPSG","9122"]],AUTHORITY["EPSG","4326"]],PROJECTION["Transverse_Mercator"],PARAMETER["latitude_of_origin",0],PARAMETER["central_meridian",-123],PARAMETER["scale_factor",0.9996],PARAMETER["false_easting",500000],PARAMETER["false_northing",0],UNIT["metre",1,AUTHORITY["EPSG","9001"]],AXIS["Easting",EAST],AXIS["Northing",NORTH],AUTHORITY["EPSG","32610"]]</SRS>
+  <GeoTransform>  3.1318500000000000e+05,  3.0000000000000000e+01,  0.0000000000000000e+00,  5.3742150000000000e+06,  0.0000000000000000e+00, -3.0000000000000000e+01</GeoTransform>
+  <VRTRasterBand dataType="UInt16" band="1">
+    <ColorInterp>Gray</ColorInterp>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://landsat-pds.s3.amazonaws.com/c1/L8/046/027/LC08_L1TP_046027_20190720_20190731_01_T1/LC08_L1TP_046027_20190720_20190731_01_T1_B5.TIF</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="7771" RasterYSize="7891" DataType="UInt16" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="7771" ySize="7891" />
+      <DstRect xOff="5350" yOff="20" xSize="7771" ySize="7891" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://landsat-pds.s3.amazonaws.com/c1/L8/046/028/LC08_L1TP_046028_20190720_20190731_01_T1/LC08_L1TP_046028_20190720_20190731_01_T1_B5.TIF</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="7781" RasterYSize="7901" DataType="UInt16" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="7781" ySize="7901" />
+      <DstRect xOff="4040" yOff="5290" xSize="7781" ySize="7901" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://landsat-pds.s3.amazonaws.com/c1/L8/047/027/LC08_L1TP_047027_20190727_20190801_01_T1/LC08_L1TP_047027_20190727_20190801_01_T1_B5.TIF</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="7861" RasterYSize="7971" DataType="UInt16" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="7861" ySize="7971" />
+      <DstRect xOff="1420" yOff="0" xSize="7861" ySize="7971" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://landsat-pds.s3.amazonaws.com/c1/L8/047/028/LC08_L1TP_047028_20190727_20190801_01_T1/LC08_L1TP_047028_20190727_20190801_01_T1_B5.TIF</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="7871" RasterYSize="7981" DataType="UInt16" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="7871" ySize="7981" />
+      <DstRect xOff="0" yOff="5240" xSize="7871" ySize="7981" />
+    </SimpleSource>
+  </VRTRasterBand>
+</VRTDataset>
